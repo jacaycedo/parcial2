@@ -1,6 +1,7 @@
 import "./App.scss";
 import React from "react";
 import { AppRouter } from "./router/AppRouter";
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 function App() {
   return (
@@ -11,5 +12,7 @@ function App() {
     </>
   );
 }
+
+serviceWorkerRegistration.register();
 
 export default App;
