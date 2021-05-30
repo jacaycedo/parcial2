@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./pieChart.scss";
+import "./piechart.scss";
 import * as d3 from "d3";
 import {FormattedMessage} from "react-intl"
 
